@@ -303,9 +303,14 @@ img.roadmap {
   scale: 1.2;
   margin: 0;
   padding: 0;
+  border-radius: 45px;
   transform: translate(0%, -5%);
   -webkit-transform: translate(0%, -5%);
   -moz-transform: translate(0%, -5%);
   -ms-transform: translate(0%, -5%);
   -o-transform: translate(0%, -5%);
+  -webkit-border-radius: 45px;
+  -moz-border-radius: 45px;
+  -ms-border-radius: 45px;
+  -o-border-radius: 45px;
 }
