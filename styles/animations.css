@@ -3,7 +3,7 @@
   width: 100%;
   height: 100%;
 
-  /* background: linear-gradient(180deg, var(--darkGradPrim), var(--lightGradPrim)); */
+  background: linear-gradient(180deg, var(--darkGradPrim), var(--lightGradPrim));
   display: flex;
   align-items: center;
   justify-content: center;

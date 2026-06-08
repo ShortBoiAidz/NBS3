@@ -6,7 +6,7 @@ $(document).ready(function () {
 
   if (totalImgs === 0) {
     // No images, hide loader immediately
-    $(".loading-screen").fadeOut(2500);
+    $(".loading-screen").fadeOut(750);
     $(".content").fadeIn(1000);
   } else {
     $imgs.each(function () {
@@ -14,7 +14,7 @@ $(document).ready(function () {
       if (this.complete) {
         loadedImgs++;
         if (loadedImgs === totalImgs) {
-          $(".loading-screen").fadeOut(2500);
+          $(".loading-screen").fadeOut(750);
           $(".content").fadeIn(1000);
         }
       } else {
@@ -22,7 +22,7 @@ $(document).ready(function () {
         $(this).on("load error", function () {
           loadedImgs++;
           if (loadedImgs === totalImgs) {
-            $(".loading-screen").fadeOut(2500);
+            $(".loading-screen").fadeOut(750);
             $(".content").fadeIn(1000);
           }
         });
