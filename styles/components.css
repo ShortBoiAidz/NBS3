@@ -250,6 +250,7 @@ section.gallerySection {
   z-index: 10000;
 }
 .logo {
+  cursor: pointer;
   transform: translateY(-20%);
   -webkit-transform: translateY(-20%);
   -moz-transform: translateY(-20%);
