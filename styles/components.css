@@ -21,6 +21,9 @@
   text-align: center;
   color: var(--lightGradSec);
 }
+#infoText2 {
+  font-size: clamp(7px, 1vw, 15px);
+}
 
 .subheader {
   margin-top: 45px;
