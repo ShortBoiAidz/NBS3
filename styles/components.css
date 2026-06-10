@@ -211,10 +211,10 @@
 .mainCardH2 {
   display: flex;
   flex-direction: row;
-  margin-top: clamp(10px, 1vw, 50px)
 }
 .mainCardH2Parent {
   position-anchor: --mainCardParent;
+  margin-top: clamp(20px, 2vw, 50px);
   width: anchor-size(width);
   transform: translateY(130%);
   -webkit-transform: translateY(130%);
