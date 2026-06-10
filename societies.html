@@ -85,8 +85,10 @@
                 src="images/irenastosLogo.webp"
                 alt="Irenastos flag"
                 class="societyLogo"
+                onclick="toggleText1()"
               />
               <h1 class="gradient-text">Irenastos</h1>
+              <p id="infoText1" class="hidden-text">Largest civilisation on NoodleBox</p>
               <div class="societyInfoCard">
                 <h3>Capital: X: 776 | Z: -3976</h3>
                 <h3>Politics: Anarchy</h3>
@@ -98,17 +100,19 @@
 
             <div class="societyCard">
               <img
-                src="images/alisRequiem.webp"
-                alt="Alis Requiem flag"
+                src="images/nymaraLogo.webp"
+                alt="NoodleBox flag"
                 class="societyLogo"
+                onclick="toggleText2()"
               />
-              <h1 class="gradient-text">Alis Requiem</h1>
+              <h1 class="gradient-text">Nymara</h1>
+              <p id="infoText2" class="hidden-text">An on-land research centre, operated by the princess of Cyrus</p>
               <div class="societyInfoCard">
-                <h3>Capital: [Null]</h3>
-                <h3>Politics: [Null]</h3>
-                <h3>Religion: Paganism</h3>
-                <h3>Population: Unknown</h3>
-                <h3>Size: [Null]</h3>
+                <h3>Capital: Unknown</h3>
+                <h3>Politics: Monarchy</h3>
+                <h3>Religion: None</h3>
+                <h3>Population: 1</h3>
+                <h3>Size: Unknown</h3>
               </div>
             </div>
 
@@ -117,8 +121,10 @@
                 src="images/noodleboxFlag.webp"
                 alt="NoodleBox flag"
                 class="societyLogo"
+                onclick="toggleText3()"
               />
               <h1 class="gradient-text">NoodleBox</h1>
+              <p id="infoText3" class="hidden-text">Also known as "The Inn" or "Spawn"</p>
               <div class="societyInfoCard">
                 <h3>Capital: X: 0 | Z: 0</h3>
                 <h3>Politics: Anarchy</h3>
@@ -128,9 +134,67 @@
               </div>
             </div>
 
+            <div class="societyCard">
+              <img
+                src="images/alisRequiem.webp"
+                alt="Alis Requiem flag"
+                class="societyLogo"
+                onclick="toggleText4()"
+              />
+              <h1 class="gradient-text">Alis Requiem</h1>
+              <p id="infoText4" class="hidden-text">Not yet constructed. Purely a concept by Emorythefem</p>
+              <div class="societyInfoCard">
+                <h3>Capital: [Null]</h3>
+                <h3>Politics: [Null]</h3>
+                <h3>Religion: Paganism</h3>
+                <h3>Population: Unknown</h3>
+                <h3>Size: [Null]</h3>
+              </div>
+            </div>
+
           </div>
         </section>
       </main>
     </div>
+
+    <script>
+        function toggleText1() {
+            const textElement = document.getElementById("infoText1");
+
+            if (textElement.style.display === "block") {
+                textElement.style.display = "none";
+            } else {
+                textElement.style.display = "block";
+            }
+        }
+        function toggleText2() {
+            const textElement = document.getElementById("infoText2");
+
+            if (textElement.style.display === "block") {
+                textElement.style.display = "none";
+            } else {
+                textElement.style.display = "block";
+            }
+        }
+        function toggleText3() {
+            const textElement = document.getElementById("infoText3");
+
+            if (textElement.style.display === "block") {
+                textElement.style.display = "none";
+            } else {
+                textElement.style.display = "block";
+            }
+        }
+        function toggleText4() {
+            const textElement = document.getElementById("infoText4");
+
+            if (textElement.style.display === "block") {
+                textElement.style.display = "none";
+            } else {
+                textElement.style.display = "block";
+            }
+        }
+    </script>
+
   </body>
 </html>

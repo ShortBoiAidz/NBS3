@@ -10,6 +10,18 @@
   display: inline-block;
 }
 
+.hidden-text {
+  display: none;
+  font-size: clamp(10px, 1vw, 20px);
+  font-family:
+    "League Spartan",
+    "Comic Sans MS",
+    sans-serif;
+  margin: 10px;
+  text-align: center;
+  color: var(--lightGradSec);
+}
+
 .subheader {
   margin-top: 45px;
 }
@@ -290,6 +302,7 @@ section.gallerySection {
   -moz-transform: translate(-100%, 25%);
   -ms-transform: translate(-100%, 25%);
   -o-transform: translate(-100%, 25%);
+  cursor: pointer;
 }
 
 .galImg {
